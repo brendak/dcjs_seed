@@ -1,0 +1,64 @@
+body div{
+  display: inline-block;
+  font: lato;
+}
+#test {
+  position: absolute;
+  margin: 50px 50px;
+}
+#test2 {
+  position: absolute;
+  margin: 670px 50px;
+}
+#test3 {
+  position: absolute;
+  margin: 1250px 50px;
+}
+#test4 {
+  position: absolute;
+  margin: 1800px 50px;
+}
+#test5 {
+  position: absolute;
+  margin: 2450px 50px;
+}
+#test4 path:hover {
+	fill-opacity: .7;
+}
+#test4 div.tooltip {
+ 	position: absolute;
+	text-align: center;
+	width: 60px;
+	height: 28px;
+	padding: 2px;
+  margin: 2050px 50px;
+	font: 12px sans-serif;
+	background: white;
+	border: 0px;
+	border-radius: 8px;
+	pointer-events: none;
+}
+#test4 legend {
+	position:absolute;
+	left:800px;
+  margin: 2050px 50px;
+	top:350px;
+}
+
+#test5 path {
+    stroke: steelblue;
+    stroke-width: 2;
+    fill: none;
+}
+#test5 .axis path,
+#test5 .axis line {
+    fill: none;
+    stroke: grey;
+    stroke-width: 1;
+    shape-rendering: crispEdges;
+}
+#test5 .legend {
+    font-size: 16px;
+    font-weight: bold;
+    text-anchor: middle;
+}
